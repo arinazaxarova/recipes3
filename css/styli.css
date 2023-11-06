@@ -1,0 +1,156 @@
+*{
+   box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.eot');
+    src: url('../font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/Roboto-Regular.woff') format('woff'),
+    url('../font/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face{
+        font-family: 'Philosopher';
+        src:local('Philosopher');
+        src:url(../font/Philosopher-Regular.ttf)
+    }
+body{
+    background-color:#ffe2b0;
+}
+
+.logo{
+    text-align: center;
+    
+}
+
+header{
+   
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+  
+}
+
+li{
+    display: inline;
+    margin-right: 100PX;
+    font-family: 'Roboto';
+}
+
+LI:last-child{
+    margin-right: 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav{
+    margin-bottom: 50px;
+
+}
+.section__reg{
+  /*position:fixed;*/
+  font-family: 'Roboto';
+}
+.section__block {
+    width: 250px;
+    height: 300px;
+    background: #ece2d05f;
+    position: absolute;
+    padding-top: 20px;
+    
+}
+.section-about__title{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form2{
+   
+
+}
+
+#text2{
+    margin-bottom: 7px;
+    text-align: center;
+    margin-left: 20px;
+}
+#password{
+    margin-bottom: 7px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+.button{
+    margin-left: 50px;
+    margin-bottom: 10px;
+   
+    
+}
+.form2 input, .form2 input {
+    border : none;
+    padding: 10px 0 10px;
+    border-radius: 15px;
+}
+.button button{
+    border-radius: 5px;
+    
+}
+.link{
+    color: #030303;
+    margin-left: 50px;
+    font-size: 16px;
+    border-bottom:1px solid black
+}
+
+.section-description{
+    width: 1000px;
+    height: 700px;
+    margin-left: 450px;
+    background-color: #fde7c0ae;
+    margin: 0 auto;
+    display: flex;
+    
+    
+    
+    
+}
+.section-description__div{
+
+}
+.section-description__div img{
+    width: 300px;
+    height: 300px;
+    border-radius:10px;
+    margin-bottom:5px;
+    margin-left: 150px;
+    
+
+    
+}
+.section-description__apple{
+    font-size: 13px;
+    margin-left: 162px;
+    font-family: 'Roboto';
+}
+.section-description__sup img{
+    width: 300px;
+    height: 300px;
+    border-radius:10px;
+    margin-bottom:5px;
+}
+.section-description__syyp{
+    font-size: 16px;
+    margin-left: 12px;
+    font-family: 'Roboto';
+}
+.section-description__sup{
+    margin-left: 100px;
+}
